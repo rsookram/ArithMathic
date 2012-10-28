@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ArithMathic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="start">Start</string>
+
+</resources>

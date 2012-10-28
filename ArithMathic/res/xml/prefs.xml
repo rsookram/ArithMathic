@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:entries="@array/operation_choice"
+        android:entryValues="@array/operation_choice"
+        android:key="question_type"
+        android:summary="Choose which operations to include in the drill"
+        android:title="Type" />
+
+    <EditTextPreference
+        android:key="totalQuestions"
+        android:numeric="integer"
+        android:summary="Number of questions to do in one drill"
+        android:title="Number of Questions" />
+    <EditTextPreference
+        android:key="max_num"
+        android:numeric="integer"
+        android:summary="Choose the highest value for the operands"
+        android:title="Maximum Number" />
+
+</PreferenceScreen>
